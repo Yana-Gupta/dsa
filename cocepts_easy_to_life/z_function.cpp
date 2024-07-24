@@ -1,3 +1,8 @@
+#include<bits/stdc++.h>
+#include<string>
+#include<vector>
+
+using namespace std;
 vector<int> z_function(const string &s)
 {
     int n = s.size(), l = 0, r = 0;
@@ -15,4 +20,14 @@ vector<int> z_function(const string &s)
         }
     }
     return z;
+}
+
+int main() {
+    string s = "abcyanaguptabacabcygp";
+    vector<int> temp = z_function(s);
+    
+    for ( auto i = 0; i < s.size(); i++ ) {
+        cout << temp[i] << " ";
+    }
+    cout << endl;
 }

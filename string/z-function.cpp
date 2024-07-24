@@ -1,6 +1,6 @@
 // z-function - find the occurance of a pattern in linear time
 // a a b c a a b x a a a z
-// 0 1 0 0 1 2 3 0 1 2 2 0
+// 0 1 0 0 3 1 0 0 2 2 1 0 
 
 // Time Complexity = O(n)
 // Space Complexity = O(n)

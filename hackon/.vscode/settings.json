@@ -1,16 +1,13 @@
 {
     "files.associations": {
-        "vector": "cpp",
+        "barrier": "cpp",
         "chrono": "cpp",
         "random": "cpp",
+        "latch": "cpp",
         "limits": "cpp",
+        "semaphore": "cpp",
         "valarray": "cpp",
         "algorithm": "cpp",
-        "ostream": "cpp",
-        "functional": "cpp",
-        "barrier": "cpp",
-        "latch": "cpp",
-        "semaphore": "cpp",
         "array": "cpp",
         "bitset": "cpp",
         "string_view": "cpp",
@@ -18,6 +15,8 @@
         "ranges": "cpp",
         "span": "cpp",
         "regex": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp"
     }
 }
