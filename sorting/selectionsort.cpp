@@ -2,6 +2,11 @@
 
 using namespace std;
 
+// you select the correct element for that position 
+// Time Complexity O(N^2)
+// Space complexity O(1)
+
+
 void selectionsort(vector<int>& arr) {
     for ( auto i = 0; i < arr.size() - 1; i++ ) {
         int key = arr[i];
