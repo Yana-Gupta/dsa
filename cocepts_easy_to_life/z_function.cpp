@@ -1,6 +1,4 @@
 #include<bits/stdc++.h>
-#include<string>
-#include<vector>
 
 using namespace std;
 vector<int> z_function(const string &s)

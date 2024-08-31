@@ -30,6 +30,9 @@
         "ratio": "cpp",
         "scoped_allocator": "cpp",
         "utility": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "algorithm": "cpp"
     }
 }

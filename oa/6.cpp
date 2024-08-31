@@ -31,7 +31,7 @@ vector<int> getPrimes(int n)
 
 int main()
 {
-    vector<int> prime = getPrimes(200);
+    vector<int> prime = getPrimes(199);
     int n;
     cin >> n;
     vector<int> a(n);
@@ -39,9 +39,12 @@ int main()
     {
         cin >> a[i];
     }
-    vector<long long> b(n);
+    map<long long, int> cnt;
+    cnt[0] += 1;
+    long long res = 0, sum = 0;
     for (int i = 0; i < n; i++)
     {
+        int val = 0;
         for (int j = 0; j < prime.size(); j++)
         {
             int cnt = 0;
@@ -51,18 +54,12 @@ int main()
                 a[i] /= prime[j];
             }
             if (cnt % 2)
-                b[i] |= (1LL << j);
+                val |= (1LL << j);
         }
-    }
-    map<long long, int> cnt;
-    cnt[0] += 1;
-    long long res = 0, sum = 0;
-    for (int i = 0; i < n; i++)
-    {
-        sum ^= b[i];
+        sum ^= val;
         res += cnt[sum];
         cnt[sum] += 1;
     }
-    cout << res;
+    cout << res << endl;
     return 0;
 }
