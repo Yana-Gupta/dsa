@@ -25,6 +25,7 @@
         "latch": "cpp",
         "limits": "cpp",
         "semaphore": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "climits": "cpp"
     }
 }

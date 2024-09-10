@@ -18,6 +18,8 @@
         "ranges": "cpp",
         "span": "cpp",
         "regex": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     }
 }
